@@ -75,7 +75,7 @@ if modo == "📄 Subir archivo":
 # MODO 2: INGRESO MANUAL
 else:
     with st.form("formulario_manual"):
-        cliente = st.text_input("ID del Cliente (ej. EMP001)")
+        cliente = st.text_input("ID del Cliente (ej. modelo_cliente1_iforest)")
         fecha = st.date_input("Fecha de la medición")
         volumen = st.number_input("Volumen", min_value=0.0, step=0.1)
         temperatura = st.number_input("Temperatura", step=0.1)
@@ -85,7 +85,7 @@ else:
     if enviar:
         modelo = cargar_modelo(cliente)
 
-        if modelo:
+        if modelo is not None:
             try:
                 entrada = pd.DataFrame([{
                     "Volumen": volumen,
