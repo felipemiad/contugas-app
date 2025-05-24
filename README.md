@@ -1,6 +1,6 @@
 # Contugas App
 
-Aplicación web para detección de anomalías en consumo de clientes usando Isolation Forest y Streamlit, empaquetada en Docker.
+Aplicación web para detección de anomalías en consumo de clientes usando Isolation Forest y Streamlit, empaquetada en Docker y desplegada en azure en el siguiente link https://contugas-app.wittyplant-faffb88c.eastus.azurecontainerapps.io/.
 
 ---
 
