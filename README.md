@@ -100,4 +100,4 @@ contugas-app/
 
 ## Soporte
 
-Para dudas o problemas, contactar a Felipe (*[felipemiad@gmail.com](mailto:felipemiad@gmail.com)*).
+Para dudas o problemas, contactar a Felipe (*[felipemiad@gmail.com](mailto:jf.cortesc1@uniandes.edu.co)*).
